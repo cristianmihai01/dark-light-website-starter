@@ -1,5 +1,4 @@
 module.exports = {
-  darkMode: 'class',
   content: ['./src/**/*.{html,js}'],
   theme: {
     fontFamily: {
@@ -25,10 +24,10 @@ module.exports = {
           hover: '#5A26DF',
         },
         grey: '#494455',
-        dark: '#1B161F',
       },
       backgroundImage: {
-        hero: "url('/src/assets/img/bg.svg')",
+        heroLight: "url('/src/assets/img/bg-light.svg')",
+        heroDark: "url('/src/assets/img/bg-dark.svg')",
       },
     },
   },
